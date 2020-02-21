@@ -1,6 +1,7 @@
 // a=2, b=3 => a=3, b=2
 // This will only work with numbers
 
+// ES 5
 function swap_values(num1, num2) {
     num1 = num1 + num2; // a = a(2) + b(3) => a = 5
     num2 = num1 - num2; // b = a(5) - b(3) => b = 2
